@@ -19,7 +19,7 @@ public class MainActivityViewModel extends AndroidViewModel {
     public MainActivityViewModel(@NonNull Application application) {
         super(application);
     }
-
+//gfhfg
     public LiveData<List<Pelicula>> getListMutable() {
         if (listMutable == null) {
             listMutable = new MutableLiveData<>();
